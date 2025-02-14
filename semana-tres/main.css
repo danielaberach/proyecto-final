@@ -1,0 +1,28 @@
+/*comentario en sass y css*/
+header {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu {
+  background-color: rgb(5, 9, 248);
+}
+header .menu ul {
+  color: red;
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+}
+main div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */

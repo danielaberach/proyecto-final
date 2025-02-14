@@ -1,0 +1,22 @@
+//con parametros
+
+@mixin medidas ($width, $height, $bg-color) {
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+
+}
+
+
+//sin parametros
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//CON Y SIN PARAMETROS
+@mixin ejemplo($width){
+    
+}

@@ -1,0 +1,32 @@
+// comentario solo en sass
+/*comentario en sass y css*/
+
+//UTILIDADES DE SASS
+//IMPORT
+
+@import "utilidades/variables";
+@import "utilidades/listas";
+@import "utilidades/mixin";
+
+
+//NESTING 
+
+header{
+    background-color: $color-principal;
+    @include flex;
+    .menu{
+        background-color: $color-secundario;
+        ul{
+            color: nth($list-colores , 2 );
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
+
+main{
+    @include medidas(400px, 500px, black); 
+    div{
+        @include medidas (200px, 200px, blue);
+    }
+}
