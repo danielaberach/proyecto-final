@@ -1,0 +1,15 @@
+.black-bg{
+    background-color: black;
+}
+
+.black-bg div div ul li .menu-bg{
+    background-color: black;
+}
+
+.black-bg div div ul li .menu-bg .a-menu:active{
+    background-color: blue
+}
+
+.black-bg div div ul li .menu-bg .a-menu:hover{
+    background-color: silver;
+}
